@@ -1,5 +1,7 @@
 *.pem
-.DS_Store
 node_modules
 *.log
 .firebase
+.vscode/*
+.DS_Store
+esp32-camera-firmware/.vscode/*

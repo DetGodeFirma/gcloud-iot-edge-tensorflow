@@ -24,8 +24,8 @@
 #define CONFIG_OV2640_SUPPORT 1
 #define CONFIG_OV7725_SUPPORT 1
 
-#define CONFIG_WIFI_SSID "casa viebrantz"
-#define CONFIG_WIFI_PASSWORD "alvaro.felipe"
+#define CONFIG_WIFI_SSID "applenet"
+#define CONFIG_WIFI_PASSWORD "secret"
 #define CONFIG_XCLK_FREQ 20000000
 
 #define CONFIG_MODEL_M5Stack 1

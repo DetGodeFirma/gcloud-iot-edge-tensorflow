@@ -20,8 +20,8 @@ gcloud pubsub subscriptions create $PUBSUB_TOPIC_EVENTS-sub --topic=$PUBSUB_TOPI
 gcloud pubsub topics create $PUBSUB_TOPIC_STATE
 gcloud pubsub subscriptions create $PUBSUB_TOPIC_STATE-sub --topic=$PUBSUB_TOPIC_STATE  --topic-project=$GCLOUD_PROJECT
 gcloud iot registries create $REGISTRY \
---region=$LOCATION 
---event-notification-config=topic=$PUBSUB_TOPIC_EVENTS \
+--region=$LOCATION \
+--event-notification-config=topic=projects/$GCLOUD_PROJECT/topics/$PUBSUB_TOPIC_EVENTS \
 --state-pubsub-topic=$PUBSUB_TOPIC_STATE
 
 # Create gateway

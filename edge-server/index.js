@@ -13,7 +13,7 @@ const config = {
     port : 3000
   },
   gateway : { 
-    projectId : 'gcloud-iot-edge', 
+    projectId : 'uffesedgecams', 
     cloudRegion : 'us-central1', 
     registryId : 'iot-edge-registry',  
     gatewayId : 'gw-mark-one', 
